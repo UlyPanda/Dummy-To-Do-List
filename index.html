@@ -8,12 +8,20 @@
     <title>Dummy data to-do list</title>
 </head>
 <body>
-    <button onclick="fetchTodos()">Fetch Todos</button>
- <button onclick="logTodos()">Log Todos</button>
- <button onclick="populateTodos()">Populate Todos</button>
- <ol id="todo-list">
+  <button onclick="fetchTodos()">Fetch Todos</button>
+  <button onclick="logTodos()">Log Todos</button>
+  <button onclick="populateTodos()">Populate Todos</button>
+
+  <form>
+      <label for number input= "Enter a number between 1 and 10"></label>
+      <input type = "text" id = "number_input">
+      <button onclick="fetchTodos(number_input)" type="button" class="btn btn-primary btn-lg" name="button">Submit</button>
+      <button onclick="resetToDos()" type="button" class="btn btn-primary btn-lg" name="button">Clear</button>
+  </form>
+
+  <ol id="todo-list">
    <!--LIs will go here-->
- </ol>
+  </ol>
     
 </body>
 </html>

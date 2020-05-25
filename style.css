@@ -4,3 +4,20 @@ li.false {
  li.istrue {
      color:fuchsia
  }
+
+button {
+    margin: 4px;
+    border: 3px solid #ddd;
+}
+
+#number_input {
+    background-image: url('https://img.icons8.com/all/500/search--v1.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-size: 8%;
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 20%;
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
